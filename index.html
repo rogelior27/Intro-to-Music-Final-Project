@@ -3,25 +3,87 @@
 <head>
   <meta charset="utf-8">
   <title>Intro to Music Final Project</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #d8f3dc; /* light green */
+      color: #1b4332;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      max-width: 700px;
+      margin: 15px auto;
+    }
+
+    .song {
+      background-color: #b7e4c7;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 30px auto;
+      width: 100%;
+    }
+
+    audio {
+      width: 80%;
+      margin: 15px auto;
+      display: block;
+    }
+
+    .note {
+      font-size: 0.95em;
+      font-style: italic;
+      margin-top: 10px;
+      color: #2d6a4f;
+    }
+  </style>
 </head>
 
 <body>
-  <h2>Welcome to my Final Project for my Intro to Music, Sound & Tech Class</h2>
 
-  <p>Song 1</p>
-  <audio controls>
-    <source src="audio/song1.mp3" type="audio/mp3">
-  </audio>
+  <h1>Intro to Music, Sound & Technology</h1>
+  <h2>Final Project</h2>
 
-  <p>Song 2</p>
-  <audio controls>
-    <source src="audio/song2.mp3" type="audio/mp3">
-  </audio>
+  <p>
+    This website presents my final project for Intro to Music, Sound & Technology.
+    The tracks below explore beat recreation, vocal recording, and creative production
+    using Logic Pro and Pro Tools.
+  </p>
 
-  <p>Audio 3</p>
-  <audio controls>
-    <source src="audio/audio3.mp3" type="audio/mp3">
-  </audio>
+  <div class="song">
+    <h3>Song 1</h3>
+    <audio controls>
+      <source src="audio/song1.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="song">
+    <h3>Song 2</h3>
+    <audio controls>
+      <source src="audio/song2.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="song">
+    <h3>Audio 3</h3>
+    <audio controls>
+      <source src="audio/song3.mp3" type="audio/mpeg">
+    </audio>
+    <p class="note">
+      This track is an original audio piece I created as part of this project.
+      It represents an early step in my music-making process, and I hope to
+      continue developing and creating music in the future.
+    </p>
+  </div>
+
 </body>
 </html>
 
